@@ -1,25 +1,63 @@
 # Scoutium_Talent_Hunting_Classification
 Machine Learning 
-Scoutium Football Potential Analysis
-This repository contains an analysis of football player potential using Scoutium data. The analysis encompasses data preprocessing, exploratory data analysis, feature scaling, and the construction and evaluation of a Random Forest classifier model.
+Customer Segmentation using Clustering
+This repository contains code for customer segmentation using clustering techniques. The analysis involves preprocessing customer data, scaling features, applying K-Means and Hierarchical Clustering algorithms, and analyzing segments.
+
+Table of Contents
+Introduction
+Prerequisites
+Installation
+Usage
+Analysis Steps
+Results
+Contributing
+License
+Introduction
+In this project, we perform customer segmentation using K-Means and Hierarchical Clustering algorithms on customer data. The goal is to group customers based on their order history, value, recency, and other attributes to identify distinct customer segments.
+
+Prerequisites
+Before getting started, ensure you have the following:
+
+Python (3.7+)
+Required Python packages (install using pip install -r requirements.txt)
+Installation
+Clone this repository:
+
+bash
+Copy code
+git clone https://github.com/your-username/customer-segmentation-clustering.git
+cd customer-segmentation-clustering
+Install the required packages:
+
+bash
+Copy code
+pip install -r requirements.txt
+Usage
+Open the Jupyter Notebook Customer_Segmentation.ipynb to follow the analysis steps.
 
 The notebook covers these main stages:
-Data loading and merging
+
 Data preprocessing and transformation
-Exploratory data analysis (EDA)
+Log transformation for normality
 Feature scaling
-Building and evaluating a Random Forest classifier model
-Customize and adapt the code to suit your specific analysis goals.
+Determining the optimal number of clusters using the Elbow Method
+Applying K-Means clustering
+Applying Hierarchical Clustering
+Analyzing and comparing clusters
+Customize the code and parameters to suit your specific dataset and objectives.
 
 Analysis Steps
-The analysis is divided into the following steps:
+The analysis comprises the following steps:
 
-Data loading and merging
 Data preprocessing and transformation
-Exploratory data analysis (EDA)
+Log transformation for normality
 Feature scaling
-Building and evaluating a Random Forest classifier model
+Determining the optimal number of clusters using the Elbow Method
+Applying K-Means clustering
+Applying Hierarchical Clustering
+Analyzing and comparing clusters
 Results
-The analysis provides insights into football player potential labels and constructs a predictive model to classify players' potential labels based on their attributes.
+The customer segmentation provides insights into distinct customer groups based on their order history, value, recency, and other attributes. Analyzing these segments can help in tailoring marketing strategies and improving customer engagement.
 
-The final Random Forest model achieved an average accuracy of X%, an average F1-score of Y%, and an average ROC AUC score of Z% through cross-validation.
+Contributing
+Contributions to this project are encouraged. Feel free to raise issues or submit pull requests for improvements or fixes.
